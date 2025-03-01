@@ -1,19 +1,6 @@
 // Nivel 3
 
 /*
-    Introducción
-    ============
-
-    Bieeeeen, has llegado lejos en tan poco tiempo!
-
-    Pero todavía tenemos más cosas para vos. Antes de comenzar, abrí index.html, y
-    reemplazá nuestro script de nivel2.js al que vamos a utilizar ahora, — nivel3.js.
-
-    TIP: Si querés utilizar multiples archivos .js, simplemente
-    agregá más etiquetas <script>.
-*/
-
-/*
     Hablemos un poco más de HTML, CSS y de como podemos interactuar con ellos
     en JavaScript.
 
@@ -85,16 +72,7 @@
 
     La lista de las propiedades de CSS es muy grande, podés leer más acá:
     https://www.w3.org/TR/CSS21/propidx.html
-
-    No te preocupés, no hace falta recordar todo esto ahora mismo!
 */
-
-
-/*
-    Uff, muchas cosas nuevas! Volvamos a JavaScript y veamos como podemos
-    interactuar con HTML.
-*/
-
 
 /*
     Elementos de Acceso
@@ -120,15 +98,6 @@
     // pero no la variable en sí misma. Vas a ver esto en acción ahora mismo.
 */
 
-// TAREA: Ahora te toca a vos! — Obtené la etiqueta h1 de la página y guardala en una variable
-//       variable llamada nuestroTitulo.
-//       Utilizá console.log para ver lo que obtuviste!
-
-
-
-
-
-
 /*
     Obteniendo elementos similares.
     ========================
@@ -144,29 +113,6 @@
     const mediaLinks = document.querySelectorAll('li');
 */
 
-// TAREA: Obtené todos los elementos <li> de la página en una variable llamada mediaLinks.
-
-
-
-
-
-
-// TAREA: Ahora utilizá console.log para ver la cantidad de 
-// elementos li que hay con mediaLinks.length
-
-
-
-
-
-
-// TAREA: ¿Te acordás de los bucles del nivel 2? Usando lo que sabés de ellos, realizá iteraciones
-//      sobre cada item de mediaLinks y mostralos en pantalla con console.log
-
-
-
-
-
-
 /*
     Propiedades de los elementos
     ==================
@@ -180,14 +126,6 @@
     nuestroTwitter.textContent;
     // Obtendremos el texto: 'Twitter: @MusesCodeJSSyd @MusesCodeJSMelb @MCJSHobart @MCJSPerth @BrisMuses'.
 */
-
-// TAREA: Obtené el contenido de nuestro elemento 'h1'
-// y utilizá console.log para mostrarlo.
-
-
-
-
-
 
 /*
     Editar el contenido de la página
@@ -203,12 +141,6 @@
     // Adiviná que es lo que vamos a ver en la página y en la consola!
 */
 
-// TAREA: Hagamos un nuevo título! Cambiá el contenido de nuestro 'h1' y ponele lo que quieras.
-
-
-
-
-
 /*
     Editando atributos
     ==================
@@ -220,13 +152,6 @@
     const nuestroTwitter = document.querySelector('.twitter');
     ourTwitter.id = "sorpresa";
 */
-
-// TAREA: Actualizá el valor del atributo 'src' de nuestra etiqueta 'img' a "img/kittens.jpeg".
-
-
-
-
-
 
 /*
     Editando estilos
@@ -246,13 +171,6 @@
     nuestroTwitter.style.backgroundColor = 'white';
 */
 
-// Tarea: Obtené cualquier elemento de la página y cambiale algunos estilos.
-
-
-
-
-
-
 /*
    Creando nuevos nodos (Elementos)
     =============================
@@ -271,17 +189,6 @@
     nuevoParrafo.appendChild(textoParrafo);
     nodoPagina.appendChild(nuevoParrafo);
 */
-
-// Tarea: Todavía seguís teniendo a los gatitos en tu pantalla? A mí me gusta el logo y los gatitos.
-//       Creá una nueva imagen con nuestro logo como fuente, y ponela
-//       en nuestra cabecera.
-//
-// P.S. También les podés dar estilos al nuevo nodo que creaste.
-
-
-
-
-
 
 ////////////////////////////////////////////////////////////////////////////
 // ¡Felicidades! ¡Has terminado el Nivel 3 de JavaScript Básico!          //

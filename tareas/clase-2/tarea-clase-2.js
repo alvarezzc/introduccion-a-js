@@ -14,7 +14,6 @@
 // Si no (else), tenemos que llamar la función 'restar', con nuestros números (las variables del paso 2).
 //
 // No se olviden de hacer un console.log para ver el resultado!
-//
 
 // TAREA: Cambiar el operador a '-', y fijarse que llame a la función 'restar' en vez de a la de 'sumar'.
 
@@ -26,19 +25,20 @@ function restar(numero1, numero2) {
     return numero1 - numero2;
 }
 
-const operador = prompt('Ingrese + o -');
-const numero1 = 1;
-const numero2 = 2;
+const OPERADOR = prompt('Seleccione un operador', '+ o -');
+
+const NUMERO_1 = Number(prompt('Ingrese un número'));
+const NUMERO_2 = Number(prompt('Ingrese otro número'));
 
 let resultado;
-if (operador === '+') {
-    resultado = sumar(numero1, numero2);
+
+if (OPERADOR === "+") {
+    resultado = sumar(NUMERO_1, NUMERO_2);
 } else {
-    resultado = restar(numero1, numero2);
+    resultado = restar(NUMERO_1, NUMERO_2);
 }
 
-//https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/template_strings
-console.log(
-    `El resultado de ${numero1} ${operador} ${numero2} es ${resultado}`
-);
+console.log(`El resultado de ${NUMERO_1} ${OPERADOR} ${NUMERO_2} = ${resultado}`)
 
+//https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/template_strings
+//console.log(`El resultado de ${numero1} ${operador} ${numero2} es ${resultado}`);

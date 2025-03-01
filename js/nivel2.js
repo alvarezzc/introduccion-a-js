@@ -1,52 +1,13 @@
 // Nivel 2
 
 /*
-    Introducción
-    ============
-
-    ¡Bienvenido al nivel 2! Es tiempo de interactuar con HTML.
-
-    Los archivos Hyper Text Markup Language (HTML) son la columna vertebral de Internet.
-    Cada sitio web que visita se carga primero como un archivo HTML.
-
-    No hablaremos demasiado sobre HTML hoy. Lo que necesitas saber es que los archivos HTML
-    funcionan como una especie de esqueleto para tu página. Nuestro archivo index.html
-    combina todos los archivos de este proyecto para que puedas abrirlos en tu navegador web.
-
-    Este proyecto tiene un archivo llamado index.html. Al final de index.html usted
-    verá la siguiente etiqueta:
-
-    <script src="js/nivel1.js"></script>
-
-    Así es como has estado ejecutando el archivo nivel1.js en un navegador. Ahora cambia
-     nivel1.js para apuntar a este archivo - nivel2.js.
-
-    ¡Ahora estás listo para comenzar!
-*/
-
-/*
     Arrays
     ======
 
     Un array es una lista ordenada de valores. Podes guardar cualquier cantidad de valores
     dentro. Y también cualquier tipo de valores: números, cadenas, objetos, incluso
     otros Arrays.
-
-    Ejemplo:
-
-    let animales = ['gato', 'perro', 'caballo'];
-    let cosasAleatorias = [2, 'libro', 'hoy es Sabado', 10];
-    let numeros = [1, 2, 8, 19];
 */
-
-// TAREA: Crea tu propio array, llamado comidasFavoritas, y escribi dentro algunas
-//       cosas que te gustan.
-
-
-
-
-
-
 
 /*
     Tamaño del Array
@@ -55,19 +16,7 @@
     Podemos verificar fácilmente cuántos elementos tenemos en nuestro Array con una propiedad:
     '.length'
 
-    Ejemplo:
-
-    let cosasAleatorias = [2, 'libro', 'hoy es Sabado', 10];
-    console.log(cosasAleatorias.length); // Obtendremos 4.
 */
-
-// TAREA: Verifique cuántos valores tiene en su array comidasFavoritas.
-// imprimi utilizando console.log el resultado.
-
-
-
-
-
 
 /*
     Uso del Array
@@ -88,13 +37,6 @@
     * https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html
 */
 
-// TAREA: Obtené el tercer elemento de tu array comidasFavoritas e imprimilo utilizando console.log.
-
-
-
-
-
-
 /*
     Cambio de Valores en Arrays
     =========================
@@ -112,23 +54,6 @@
     // ahora nuestro array de animales sera ['gato', 'pez', 'caballo'];
 */
 
-// TAREA: Toma tu array de comidasFavoritas y reemplaza el primer valor
-// con cualquier otra cosa.
-
-
-
-
-
-
-// TAREA: console.log todo el array para verificar.
-
-
-
-
-
-
-// TIP: ¡No te olvides que las posiciones de índice comienzan desde 0!
-
 /*
     Array.push()
     ============
@@ -143,20 +68,6 @@
 
     // nuestro array de animales sera ['gato', 'perro', 'caballo', 'conejo'];
 */
-
-// TAREA: Extendamos tu lista de comidasFavoritas y agreguemos un valor más.
-
-
-
-
-
-
-// TAREA: console.log todo el array para verificar.
-
-
-
-
-
 
 /*
     Nota acerca Arrays constantes
@@ -177,24 +88,7 @@
 
     // Esto es ilegal y devolverá un error igual al que se genera al cambiar cualquier constante:
     animales = [ 'mouse', 'elephant' ];
- */
-
-// TAREA: Intenta crear un array como una constante y modifica los valores que contiene.
-
-
-
-
-
-
-
-// TAREA: Observa lo que sucede si agregas algo con.push(), cambias algo
-//       con notación de corchetes (array[1]) y
-//       asigna un nuevo array completamente nuevo a la constante
-
-
-
-
-
+*/
 
 /*
     Bucles
@@ -243,14 +137,6 @@
     }
 */
 
-// TAREA: Usando un bucle 'while', decile a tu computadora que registre los números de
-//       diez a uno.
-
-
-
-
-
-
 /*
     Bucles for (para)
     ==========
@@ -265,13 +151,6 @@
       console.log('Hola!');
     }
 */
-
-// TAREA: Imprimí cada 3er número del 3 al 22 usando un 'bucle for'.
-
-
-
-
-
 
 /*
     Iterando a traves de Arrays
@@ -294,13 +173,6 @@
     }
 */
 
-// TAREA: Probalo con tu comidasFavoritas array.
-
-
-
-
-
-
 /*
     Bucles y Logica
     ===============
@@ -322,27 +194,6 @@
         }
     }
 */
-
-// TAREA: Ha llegado el momento de un ejercicio clásico: 'FizzBuzz'.
-
-// Cuenta del 1 al 50 e imprime los números:
-//
-// * Si un número es múltiplo de tres, imprime 'Fizz'.
-// * Si es un múltiplo de 5, imprime 'Buzz'.
-// * Si es un múltiplo de 3 y 5, imprime 'FizzBuzz'.
-// * Para todo lo demás, imprime el número mismo.
-
-// NOTA: Es posible que desees utilizar el operador aritmético modulo (%):
-// Calcula el resto al dividir.
-//
-// 10% 3 = 1 - en 10 tenemos 3 * 3 + 1
-// 16% 4 = 0 - en 16 tenemos 4 * 4
-// 19% 4 = 3 - en 19 tenemos 4 * 4 + 3, etc.
-
-
-
-
-
 
 //////////////////////////////////////////////////////////////////////////////
 // ¡Felicidades! ¡Has terminado el Nivel 2 de JavaScript Básico!            //
