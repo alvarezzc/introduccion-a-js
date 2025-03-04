@@ -21,26 +21,33 @@ function probarValidarCantidadIntegrantes() {
 }
 
 function probarValidarEdades() {
+    const resultadoValidacionEdades = validarEdades([0, 1, -1, 1.1]);
+
     console.assert(
-        validarEdades([10, 20, 0]) === 'El campo edades no puede ser cero',
-        'Validar edad no valido que el usuario ingresara su edad'
+        resultadoValidacionEdades[0] === 'La edad no puede ser cero',
+        'Validar edades no valido que la edad no sea cero'
     );
 
     console.assert(
-        validarEdades([15, 20, -1]) === 'La edad no puede ser un número negativo',
-        'Validar edad no valido que usuario no ingrasara un número negativo'
+        resultadoValidacionEdades[1] === '',
+        'Validar edades no valido con una edad correcta'
     );
 
     console.assert(
-        validarEdades([15, 25, 10.5]) === 'El campo edades no puede contener números con punto decimal',
+        resultadoValidacionEdades[2] === 'La edad no puede ser un número negativo',
+        'Validar edad no valido que el usuario no ingrasara un número negativo'
+    );
+
+    console.assert(
+        resultadoValidacionEdades[3] === 'El campo edades no puede contener números con punto decimal',
         'Validar edades no valido que las edades no tengan punto decimal'
     );
 
     console.assert(
-        validarEdades([15, 25, 10]) === '',
-        'Validar edades no valido con edades correctas'
+        resultadoValidacionEdades.length === 4,
+        'Validar edades no valido que se ingresaran 4 edades'
     );
 }
 
 probarValidarCantidadIntegrantes();
-//probarValidarEdades();
+probarValidarEdades();
